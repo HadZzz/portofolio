@@ -20,7 +20,7 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Turkish</h6>
+                <h6 className="trm-mb-15">Indonesia</h6>
                 <span className="trm-label trm-label-light">Native</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -29,8 +29,8 @@ const Index = () => {
             </div>
             <div>
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">English</h6>
-                <span className="trm-label trm-label-light">90%</span>
+                <h6 className="trm-mb-15">Japanese</h6>
+                <span className="trm-label trm-label-light">10%</span>
               </div>
               <div className="trm-progressbar-frame">
                 <div className="trm-progressbar p90" />
@@ -46,20 +46,11 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Spanish</h6>
-                <span className="trm-label trm-label-light">80%</span>
+                <h6 className="trm-mb-15">English</h6>
+                <span className="trm-label trm-label-light">40%</span>
               </div>
               <div className="trm-progressbar-frame">
                 <div className="trm-progressbar p80" />
-              </div>
-            </div>
-            <div>
-              <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Italian</h6>
-                <span className="trm-label trm-label-light">60%</span>
-              </div>
-              <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p60" />
               </div>
             </div>
           </div>
@@ -86,7 +77,7 @@ const Index = () => {
             <div className="trm-mb-40">
               <div className="trm-skill-header">
                 <h6 className="trm-mb-15">CSS</h6>
-                <span className="trm-label trm-label-light">100%</span>
+                <span className="trm-label trm-label-light">80%</span>
               </div>
               <div className="trm-progressbar-frame">
                 <div className="trm-progressbar p100" />
@@ -95,7 +86,7 @@ const Index = () => {
             <div>
               <div className="trm-skill-header">
                 <h6 className="trm-mb-15">SCSS</h6>
-                <span className="trm-label trm-label-light">80%</span>
+                <span className="trm-label trm-label-light">70%</span>
               </div>
               <div className="trm-progressbar-frame">
                 <div className="trm-progressbar p80" />
@@ -111,16 +102,7 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">jQuery</h6>
-                <span className="trm-label trm-label-light">90%</span>
-              </div>
-              <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p90" />
-              </div>
-            </div>
-            <div className="trm-mb-40">
-              <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Vue js</h6>
+                <h6 className="trm-mb-15">React js</h6>
                 <span className="trm-label trm-label-light">70%</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -153,14 +135,13 @@ const Index = () => {
             <div className="row">
               <div className="col-lg-4">
                 <ul className="trm-list">
-                  <li>Photoshop</li>
-                  <li>Sketch</li>
+                  <li>Canva</li>
                   <li>Figma</li>
                 </ul>
               </div>
               <div className="col-lg-4">
                 <ul className="trm-list">
-                  <li>Gulp</li>
+                  <li>Tailwind</li>
                   <li>Sass</li>
                   <li>Bootstrap</li>
                 </ul>
@@ -169,7 +150,7 @@ const Index = () => {
                 <ul className="trm-list">
                   <li>Bootstrap</li>
                   <li>React js</li>
-                  <li>Vue js</li>
+                  <li>Next js</li>
                 </ul>
               </div>
             </div>
@@ -197,9 +178,9 @@ const Index = () => {
               <div className="trm-a trm-timeline-content">
                 <div className="trm-card-header">
                   <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Toronto Art School</h6>
+                    <h6 className="trm-mb-15">Politeknik Pratama Mulia </h6>
                     <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
+                      <i>Sep 2022 - </i>
                     </div>
                   </div>
                 </div>
@@ -250,73 +231,6 @@ const Index = () => {
             </div>
           </div>
           {/* timeline end */}
-        </div>
-        <div className="col-lg-6">
-          <div className="trm-timeline">
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Graphic Designer</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  Dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde.
-                </div>
-              </div>
-            </div>
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">UI/UX Designer</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  Iusto quasi placeat iure tempora laudantium ipsa ad debitis
-                  unde.
-                </div>
-              </div>
-            </div>
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">UI/UX Designer, Web Developer</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div>Dolorum provident rerum aut hic quasi placeat iure</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       {/* history end */}
