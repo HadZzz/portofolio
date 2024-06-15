@@ -1,12 +1,7 @@
 export const typing = () => {
   const text = document.querySelector(".trm-typed-text");
 
-  const words = [
-    "UI/UX Designer",
-    "Web Developer",
-    "Photographer",
-    "Dreamer :)",
-  ];
+  const words = ["Web Developer", "Dreamer :)"];
 
   setTyper(text, words);
 
@@ -74,12 +69,7 @@ REINIT
   document.addEventListener("swup:contentReplaced", function () {
     const text = document.querySelector(".trm-typed-text");
 
-    const words = [
-      "UI/UX Designer",
-      "Web Developer",
-      "Photographer",
-      "Dreamer :)",
-    ];
+    const words = ["Web Developer", "Dreamer :)"];
 
     setTyper(text, words);
 
