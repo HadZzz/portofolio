@@ -33,7 +33,7 @@ const Index = () => {
                 <span className="trm-label trm-label-light">10%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p90" />
+                <div className="trm-progressbar p10" />
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Index = () => {
                 <span className="trm-label trm-label-light">40%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p80" />
+                <div className="trm-progressbar p40" />
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Index = () => {
                 <span className="trm-label trm-label-light">80%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p100" />
+                <div className="trm-progressbar p80" />
               </div>
             </div>
             <div>
@@ -89,7 +89,7 @@ const Index = () => {
                 <span className="trm-label trm-label-light">70%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p80" />
+                <div className="trm-progressbar p70" />
               </div>
             </div>
           </div>
@@ -185,40 +185,8 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="trm-mb-20">
-                  Dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde. Quasi placeat. Iste
-                  voluptatibus minus veritatis qui ut.
-                </div>
-                <a
-                  data-fancybox
-                  href="files/diploma.jpg"
-                  className="trm-label trm-label-color"
-                >
-                  Diploma <i className="fas fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Designe Academy</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div className="trm-mb-20">
-                  Dolorum tempora provident rerum aut hic quasi placeat iure
-                  tempora timeline de laudantium ipsa ad debitis unde quasi
-                  placeat Iste voluptatibus minus veritatis qui ut.
+                  Saya seorang mahasiswa di Politeknik Pratama Mulia dengan
+                  jurusan Manajement Informatika. Saya berasal dari Solo.{" "}
                 </div>
                 <a
                   data-fancybox

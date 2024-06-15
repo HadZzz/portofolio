@@ -235,7 +235,7 @@ const SliderBanner = ({}) => {
                 <h1 className="trm-mb-30">
                   Discover my
                   <br />
-                  art space!
+                  Website!
                 </h1>
               </div>
               {/* banner title end */}

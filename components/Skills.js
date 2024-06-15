@@ -37,10 +37,10 @@ const LanguageSkills = () => {
           <div>
             <div className="trm-skill-header">
               <h6 className="trm-mb-15">Japanese</h6>
-              <span className="trm-label trm-label-light">0%</span>
+              <span className="trm-label trm-label-light">10%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p90" />
+              <div className="trm-progressbar p10" />
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const LanguageSkills = () => {
               <span className="trm-label trm-label-light">40%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p80" />
+              <div className="trm-progressbar p40" />
             </div>
           </div>
         </div>
@@ -118,16 +118,7 @@ const HardSkills = () => {
         >
           <div className="trm-mb-40">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">jQuery</h6>
-              <span className="trm-label trm-label-light">90%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p90" />
-            </div>
-          </div>
-          <div className="trm-mb-40">
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Vue js</h6>
+              <h6 className="trm-mb-15">React js</h6>
               <span className="trm-label trm-label-light">70%</span>
             </div>
             <div className="trm-progressbar-frame">
