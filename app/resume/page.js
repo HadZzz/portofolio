@@ -34,10 +34,10 @@ const Index = () => {
               <div className='trm-mb-20'>
                 <div className='trm-skill-header'>
                   <h6 className='trm-mb-15'>Next.js</h6>
-                  <span className='trm-label trm-label-light'>75%</span>
+                  <span className='trm-label trm-label-light'>80%</span>
                 </div>
                 <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p75' />
+                  <div className='trm-progressbar p80' />
                 </div>
               </div>
               <div className='trm-mb-20'>
