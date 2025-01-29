@@ -10,139 +10,69 @@ const Index = () => {
   }, []);
   return (
     <TrueManLayout>
-      {/* Technical Skills */}
+      {/* Core Skills */}
       <div className='row'>
-        <div className='col-lg-6'>
+        <div className='col-lg-12'>
+          <h5 className='trm-mb-40 trm-title-with-divider'>
+            Core Skills <span data-number={1} />
+          </h5>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col-lg-4'>
           <div
             className='trm-skill-card trm-scroll-animation trm-active-el'
             data-scroll
             data-scroll-offset={40}
           >
-            <div className='trm-mb-40'>
-              <div className='trm-skill-header'>
-                <h6 className='trm-mb-15'>Frontend Development</h6>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>React.js</h6>
-                  <span className='trm-label trm-label-light'>80%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p80' />
-                </div>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>Next.js</h6>
-                  <span className='trm-label trm-label-light'>80%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p80' />
-                </div>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>HTML/CSS</h6>
-                  <span className='trm-label trm-label-light'>90%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p90' />
-                </div>
-              </div>
-            </div>
+            <h6 className='trm-mb-20'>Frontend Development</h6>
+            <ul className='trm-list'>
+              <li>React.js & Component Architecture</li>
+              <li>Next.js & Server-Side Rendering</li>
+              <li>HTML5 & Semantic Markup</li>
+              <li>CSS3 & Modern Layout</li>
+              <li>JavaScript ES6+</li>
+              <li>Responsive Web Design</li>
+            </ul>
           </div>
         </div>
-        <div className='col-lg-6'>
+        <div className='col-lg-4'>
           <div
             className='trm-skill-card trm-scroll-animation trm-active-el'
             data-scroll
             data-scroll-offset={40}
           >
-            <div className='trm-mb-40'>
-              <div className='trm-skill-header'>
-                <h6 className='trm-mb-15'>Backend Development</h6>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>PHP</h6>
-                  <span className='trm-label trm-label-light'>80%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p80' />
-                </div>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>MySQL</h6>
-                  <span className='trm-label trm-label-light'>70%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p70' />
-                </div>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>Firebase</h6>
-                  <span className='trm-label trm-label-light'>60%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p60' />
-                </div>
-              </div>
-            </div>
+            <h6 className='trm-mb-20'>Backend Development</h6>
+            <ul className='trm-list'>
+              <li>PHP & Object-Oriented Programming</li>
+              <li>MySQL Database Design</li>
+              <li>Firebase Real-time Database</li>
+              <li>RESTful API Development</li>
+              <li>Server Configuration</li>
+              <li>Security Best Practices</li>
+            </ul>
+          </div>
+        </div>
+        <div className='col-lg-4'>
+          <div
+            className='trm-skill-card trm-scroll-animation trm-active-el'
+            data-scroll
+            data-scroll-offset={40}
+          >
+            <h6 className='trm-mb-20'>Mobile & Tools</h6>
+            <ul className='trm-list'>
+              <li>React Native Development</li>
+              <li>Cross-platform Solutions</li>
+              <li>Git Version Control</li>
+              <li>GitHub Collaboration</li>
+              <li>Development Workflows</li>
+              <li>Testing & Debugging</li>
+            </ul>
           </div>
         </div>
       </div>
 
-      {/* Mobile & Tools */}
-      <div className='row'>
-        <div className='col-lg-6'>
-          <div
-            className='trm-skill-card trm-scroll-animation trm-active-el'
-            data-scroll
-            data-scroll-offset={40}
-          >
-            <div className='trm-mb-40'>
-              <div className='trm-skill-header'>
-                <h6 className='trm-mb-15'>Mobile Development</h6>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>React Native</h6>
-                  <span className='trm-label trm-label-light'>70%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p70' />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='col-lg-6'>
-          <div
-            className='trm-skill-card trm-scroll-animation trm-active-el'
-            data-scroll
-            data-scroll-offset={40}
-          >
-            <div className='trm-mb-40'>
-              <div className='trm-skill-header'>
-                <h6 className='trm-mb-15'>Development Tools</h6>
-              </div>
-              <div className='trm-mb-20'>
-                <div className='trm-skill-header'>
-                  <h6 className='trm-mb-15'>Git & GitHub</h6>
-                  <span className='trm-label trm-label-light'>80%</span>
-                </div>
-                <div className='trm-progressbar-frame'>
-                  <div className='trm-progressbar p80' />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Knowledge */}
+      {/* Technical Knowledge */}
       <div className='row'>
         <div className='col-lg-12'>
           <h5 className='trm-mb-40 trm-title-with-divider'>
@@ -157,6 +87,8 @@ const Index = () => {
                 <ul className='trm-list'>
                   <li>Figma - UI/UX Design</li>
                   <li>Canva - Graphic Design</li>
+                  <li>Design Systems</li>
+                  <li>Prototyping</li>
                 </ul>
               </div>
               <div className='col-lg-4'>

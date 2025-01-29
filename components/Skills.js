@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <Fragment>
       <LanguageSkills />
-      <HardSkills />
+      <TechnicalSkills />
     </Fragment>
   );
 };
@@ -13,51 +13,27 @@ const LanguageSkills = () => {
   return (
     <div className="row">
       <div className="col-lg-12">
-        {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Language skills
-          <span data-number={5} />
+          Language Skills
+          <span data-number={2} />
         </h5>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-12">
         <div
           className="trm-skill-card trm-scroll-animation trm-active-el"
           data-scroll
           data-scroll-offset={40}
         >
-          <div className="trm-mb-40">
+          <div className="trm-mb-20">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Indonesia</h6>
+              <h6>Indonesia</h6>
               <span className="trm-label trm-label-light">Native</span>
             </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p100" />
-            </div>
           </div>
-          <div>
+          <div className="trm-mb-20">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Japanese</h6>
-              <span className="trm-label trm-label-light">10%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p10" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-6">
-        <div
-          className="trm-skill-card trm-scroll-animation trm-active-el"
-          data-scroll
-          data-scroll-offset={40}
-        >
-          <div className="trm-mb-40">
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">English</h6>
-              <span className="trm-label trm-label-light">40%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p40" />
+              <h6>Japanese</h6>
+              <span className="trm-label trm-label-light">Basic</span>
             </div>
           </div>
         </div>
@@ -65,75 +41,62 @@ const LanguageSkills = () => {
     </div>
   );
 };
-const HardSkills = () => {
+
+const TechnicalSkills = () => {
   return (
     <div className="row">
       <div className="col-lg-12">
-        {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Hard Skills
-          <span data-number={6} />
+          Technical Skills
+          <span data-number={3} />
         </h5>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-4">
         <div
           className="trm-skill-card trm-scroll-animation trm-active-el"
           data-scroll
           data-scroll-offset={40}
         >
-          <div className="trm-mb-40">
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Html</h6>
-              <span className="trm-label trm-label-light">100%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p100" />
-            </div>
-          </div>
-          <div className="trm-mb-40">
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">CSS</h6>
-              <span className="trm-label trm-label-light">100%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p100" />
-            </div>
-          </div>
-          <div>
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">SCSS</h6>
-              <span className="trm-label trm-label-light">80%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p80" />
-            </div>
-          </div>
+          <h6 className="trm-mb-20">Frontend Development</h6>
+          <ul className="trm-mb-20">
+            <li>HTML5 & Semantic Web</li>
+            <li>CSS3 & SCSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+          </ul>
         </div>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-4">
         <div
           className="trm-skill-card trm-scroll-animation trm-active-el"
           data-scroll
           data-scroll-offset={40}
         >
-          <div className="trm-mb-40">
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">React js</h6>
-              <span className="trm-label trm-label-light">70%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p70" />
-            </div>
-          </div>
-          <div>
-            <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Js</h6>
-              <span className="trm-label trm-label-light">60%</span>
-            </div>
-            <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p60" />
-            </div>
-          </div>
+          <h6 className="trm-mb-20">UI/UX & Tools</h6>
+          <ul className="trm-mb-20">
+            <li>Responsive Design</li>
+            <li>Modern UI Libraries</li>
+            <li>Version Control (Git)</li>
+            <li>Web Performance</li>
+            <li>Cross-browser Compatibility</li>
+          </ul>
+        </div>
+      </div>
+      <div className="col-lg-4">
+        <div
+          className="trm-skill-card trm-scroll-animation trm-active-el"
+          data-scroll
+          data-scroll-offset={40}
+        >
+          <h6 className="trm-mb-20">Additional Skills</h6>
+          <ul className="trm-mb-20">
+            <li>RESTful APIs</li>
+            <li>Web Animations</li>
+            <li>Package Managers</li>
+            <li>Build Tools</li>
+            <li>Problem Solving</li>
+          </ul>
         </div>
       </div>
     </div>

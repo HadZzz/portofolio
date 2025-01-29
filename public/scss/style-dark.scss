@@ -52,3 +52,25 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
 @import 'common';
 @import 'content';
 @import 'custom';
+
+.trm-skill-card {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: 10px;
+      color: var(--color-text);
+      position: relative;
+      padding-left: 20px;
+      
+      &:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: var(--color-theme);
+      }
+    }
+  }
+}

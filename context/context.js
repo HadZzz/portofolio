@@ -41,7 +41,7 @@ const reducer = (state, action) => {
 
 const state = (props) => {
   const initialState = {
-    mode: false,
+    mode: true,
     banner_image: "/img/banner.jpg",
     banner_type: "",
     page_info: { pageTitle: "", subTitle: "", pageName: "", scroll_down: true },
