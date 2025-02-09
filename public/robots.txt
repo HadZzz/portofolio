@@ -20,7 +20,6 @@ Disallow: /*?*
 Disallow: /api/
 
 # Allow important pages
-Allow: /blog/
 Allow: /services/
 Allow: /contact/
 
