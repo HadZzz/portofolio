@@ -39,23 +39,40 @@ const SideBar = () => {
             <a
               href="https://www.linkedin.com/in/hadzi-pamuji-438104215/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="https://www.instagram.com/hdzi08/" target="_blank">
+            <a 
+              href="https://www.instagram.com/hdzi08/" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-instagram" />
             </a>
-            <a href="https://github.com/HadZzz" target="_blank">
+            <a 
+              href="https://github.com/HadZzz" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github" />
             </a>
-            <a href="https://x.com/Hadzzy3" target="_blank">
+            <a 
+              href="https://x.com/Hadzzy3" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-twitter" />
             </a>
-            <a href="https://wa.me/6285876120167" target="_blank">
-              <i className="fab fa-whatsapp" />
+            <a 
+              href="https://wa.me/6285876120167" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="trm-social-item"
+            >
+              <i className="fab fa-whatsapp" style={{ fontSize: '1.1em' }} />
             </a>
           </div>
-
           {/* sidebar social end */}
           <div className="trm-divider trm-mb-40 trm-mt-40" />
           {/* info */}
