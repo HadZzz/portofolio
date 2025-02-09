@@ -20,27 +20,30 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL("https://hazdev.vercel.app"),
-  title: "HazDev - Full Stack Developer Portfolio",
+  title: "Jasa Pembuatan Website Sukoharjo #1 | Web Development Profesional",
   description:
-    "Portfolio website showcasing full stack development projects using React, Next.js, PHP, and more. Specialized in web and mobile development.",
+    "🏆 Jasa pembuatan website terbaik di Sukoharjo. Spesialis website UMKM, company profile, landing page & toko online. ✓ Harga Terjangkau ✓ Proses Cepat ✓ Support 24/7 | Hubungi: 085876120167",
   keywords: [
-    "Full Stack Developer",
-    "Web Development",
-    "React Developer",
-    "Next.js",
-    "PHP Developer",
-    "Mobile Development",
-    "Portfolio",
-    "Frontend Developer",
-    "Backend Developer",
-    "JavaScript Developer",
-    "React Native Developer",
+    "Jasa Website Sukoharjo",
+    "Bikin Website Sukoharjo",
+    "Web Development Sukoharjo",
+    "Jasa Landing Page Sukoharjo",
+    "Website UMKM Sukoharjo",
+    "Website Bisnis Sukoharjo",
+    "Harga Website Sukoharjo",
+    "Company Profile Sukoharjo",
+    "Toko Online Sukoharjo",
+    "Website Murah Sukoharjo",
+    "Jasa SEO Sukoharjo",
+    "Digital Marketing Sukoharjo",
+    "WordPress Sukoharjo",
+    "Website Custom Sukoharjo",
+    "Pembuatan Website Profesional"
   ],
   alternates: {
     canonical: "https://hazdev.vercel.app",
     languages: {
-      'en-US': 'https://hazdev.vercel.app/en',
-      'id-ID': 'https://hazdev.vercel.app/id',
+      'id-ID': 'https://hazdev.vercel.app',
     },
   },
   authors: [
@@ -52,17 +55,17 @@ export const metadata = {
   creator: "HazDev",
   publisher: "HazDev",
   openGraph: {
-    title: "HazDev - Full Stack Developer Portfolio",
+    title: "Jasa Pembuatan Website Sukoharjo | Spesialis Website UMKM & Bisnis",
     description:
-      "Portfolio website showcasing full stack development projects using React, Next.js, PHP, and more. Expert in web and mobile development with modern technologies.",
+      "Butuh website profesional untuk bisnis Anda di Sukoharjo? ✓ WordPress ✓ Landing Page ✓ Website Custom. Konsultasi GRATIS! Hubungi: 085876120167",
     url: "https://hazdev.vercel.app",
-    siteName: "HazDev Portfolio",
+    siteName: "HazDev - Jasa Website Sukoharjo",
     images: [
       {
         url: "/img/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "HazDev Portfolio Preview",
+        alt: "Jasa Pembuatan Website Profesional Sukoharjo - HazDev",
       },
     ],
     locale: "id_ID",
@@ -84,13 +87,13 @@ export const metadata = {
     },
   },
   twitter: {
-    title: "HazDev - Full Stack Developer",
+    title: "Jasa Pembuatan Website Sukoharjo | HazDev",
     card: "summary_large_image",
-    description: "Portfolio website showcasing full stack development projects. Expert in React, Next.js, and modern web technologies.",
+    description: "Jasa pembuatan website profesional di Sukoharjo. Spesialis WordPress, landing page & website custom untuk UMKM dan bisnis.",
     images: [
       {
         url: "/img/og-image.jpg",
-        alt: "HazDev Portfolio Preview",
+        alt: "Jasa Website Sukoharjo - HazDev",
       }
     ],
     creator: "@yourtwitterhandle",
@@ -101,8 +104,8 @@ export const metadata = {
     yandex: "yandex-verification-code",
     bing: "bing-verification-code",
   },
-  category: "Portfolio",
-  classification: "Portfolio Website",
+  category: "Jasa Web Development Sukoharjo",
+  classification: "Jasa Pembuatan Website Profesional",
   manifest: "/manifest.json",
 };
 
@@ -125,67 +128,125 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@graph": [
                 {
-                  "@type": "Person",
-                  "@id": "https://hazdev.vercel.app/#person",
-                  "name": "HazDev",
-                  "url": "https://hazdev.vercel.app",
+                  "@type": "LocalBusiness",
+                  "@id": "https://hazdev.vercel.app/#localbusiness",
+                  "name": "HazDev - Jasa Website Sukoharjo",
                   "image": {
                     "@type": "ImageObject",
-                    "@id": "https://hazdev.vercel.app/#image",
-                    "url": "https://hazdev.vercel.app/img/avatar.jpg",
-                    "contentUrl": "https://hazdev.vercel.app/img/avatar.jpg"
+                    "@id": "https://hazdev.vercel.app/#logo",
+                    "url": "https://hazdev.vercel.app/img/logo.png",
+                    "contentUrl": "https://hazdev.vercel.app/img/logo.png"
                   },
-                  "description": "Full Stack Developer specialized in React, Next.js, and modern web technologies",
-                  "jobTitle": "Full Stack Developer",
-                  "knowsAbout": [
-                    "Web Development",
-                    "React",
-                    "Next.js",
-                    "PHP",
-                    "MySQL",
-                    "Mobile Development"
-                  ],
+                  "description": "Jasa pembuatan website profesional di Sukoharjo dengan harga terjangkau. Spesialis WordPress, landing page, dan website custom untuk UMKM dan bisnis.",
+                  "url": "https://hazdev.vercel.app",
+                  "telephone": "+6285876120167",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Alamat Anda",
+                    "addressLocality": "Sukoharjo",
+                    "addressRegion": "Jawa Tengah",
+                    "postalCode": "57514",
+                    "addressCountry": "ID"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-7.6809",
+                    "longitude": "110.8313"
+                  },
+                  "priceRange": "Rp2.000.000 - Rp10.000.000",
+                  "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday",
+                      "Saturday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "17:00"
+                  },
                   "sameAs": [
                     "https://github.com/HadZzz",
-                    // Add your social media links
-                  ],
-                  "worksFor": {
-                    "@type": "Organization",
-                    "name": "Freelance"
+                    "https://wa.me/6285876120167"
+                  ]
+                },
+                {
+                  "@type": "Service",
+                  "@id": "https://hazdev.vercel.app/#service",
+                  "name": "Jasa Pembuatan Website Sukoharjo",
+                  "provider": {
+                    "@id": "https://hazdev.vercel.app/#localbusiness"
+                  },
+                  "areaServed": {
+                    "@type": "City",
+                    "name": "Sukoharjo"
+                  },
+                  "description": "Layanan pembuatan website profesional untuk bisnis dan UMKM di Sukoharjo",
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "IDR",
+                    "lowPrice": "2000000",
+                    "highPrice": "10000000",
+                    "offerCount": "3"
+                  },
+                  "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Layanan Website Sukoharjo",
+                    "itemListElement": [
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "Website WordPress Premium",
+                          "description": "Pembuatan website WordPress profesional dengan template premium, optimasi SEO, dan fitur lengkap"
+                        },
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "2000000",
+                          "priceCurrency": "IDR"
+                        }
+                      },
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "Landing Page Profesional",
+                          "description": "Pembuatan landing page yang menarik dan konversi tinggi untuk promosi produk/jasa"
+                        },
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "3000000",
+                          "priceCurrency": "IDR"
+                        }
+                      },
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "Website Custom",
+                          "description": "Pembuatan website custom sesuai kebutuhan dengan fitur spesial dan optimasi performa"
+                        },
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "5000000",
+                          "priceCurrency": "IDR"
+                        }
+                      }
+                    ]
                   }
                 },
                 {
                   "@type": "WebSite",
                   "@id": "https://hazdev.vercel.app/#website",
                   "url": "https://hazdev.vercel.app",
-                  "name": "HazDev Portfolio",
-                  "description": "Full Stack Developer Portfolio",
+                  "name": "HazDev - Jasa Website Sukoharjo",
+                  "description": "Jasa pembuatan website profesional di Sukoharjo",
                   "publisher": {
-                    "@id": "https://hazdev.vercel.app/#person"
+                    "@id": "https://hazdev.vercel.app/#localbusiness"
                   },
-                  "inLanguage": "en-US"
-                },
-                {
-                  "@type": "WebPage",
-                  "@id": "https://hazdev.vercel.app/#webpage",
-                  "url": "https://hazdev.vercel.app",
-                  "name": "HazDev - Full Stack Developer Portfolio",
-                  "isPartOf": {
-                    "@id": "https://hazdev.vercel.app/#website"
-                  },
-                  "about": {
-                    "@id": "https://hazdev.vercel.app/#person"
-                  },
-                  "description": "Portfolio website showcasing full stack development projects using React, Next.js, PHP, and more.",
-                  "inLanguage": "en-US",
-                  "potentialAction": [
-                    {
-                      "@type": "ReadAction",
-                      "target": [
-                        "https://hazdev.vercel.app"
-                      ]
-                    }
-                  ]
+                  "inLanguage": "id-ID"
                 }
               ]
             })

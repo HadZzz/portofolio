@@ -4,7 +4,7 @@ const Services = () => {
       <div className="col-lg-12">
         {/* title */}
         <h5 className="trm-mb-40 trm-mt-40 trm-title-with-divider">
-          My Services <span data-number={3} />
+          Layanan Jasa Pembuatan Website Sukoharjo <span data-number={3} />
         </h5>
       </div>
       <div className="col-lg-6">
@@ -18,27 +18,27 @@ const Services = () => {
             <div className="trm-icon">
               <img
                 src="/img/icons/icon-1.svg"
-                alt="icon"
+                alt="Jasa Pembuatan Website WordPress Sukoharjo"
                 className="trm-black-icon"
               />
               <img
                 src="/img/icons/icon-1w.svg"
-                alt="icon"
+                alt="Jasa Website WordPress Sukoharjo"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Template WordPress</h6>
+            <h6 className="trm-mb-20">Jasa Website WordPress Premium</h6>
             <div className="trm-mb-20">
-              Menyediakan berbagai macam template WordPress premium dan gratis
-              yang dirancang untuk berbagai kebutuhan, seperti blog, toko
-              online, portofolio, dan situs web bisnis.
+              Layanan pembuatan website WordPress profesional di Sukoharjo dengan template premium.
+              Cocok untuk berbagai kebutuhan bisnis seperti company profile, toko online, 
+              blog, portofolio, dan website UMKM. Dilengkapi fitur SEO dan optimasi performa.
             </div>
             <a
               data-fancybox=""
               href="#trm-order"
               className="trm-label trm-label-color"
             >
-              Order now <i className="fas fa-arrow-right" />
+              Pesan Sekarang <i className="fas fa-arrow-right" />
             </a>
           </div>
         </div>
@@ -55,27 +55,27 @@ const Services = () => {
             <div className="trm-icon">
               <img
                 src="/img/icons/icon-2.svg"
-                alt="icon"
+                alt="Jasa Pembuatan Landing Page Sukoharjo" 
                 className="trm-black-icon"
               />
               <img
                 src="/img/icons/icon-2w.svg"
-                alt="icon"
+                alt="Jasa Landing Page Sukoharjo"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Web Template</h6>
+            <h6 className="trm-mb-20">Jasa Landing Page Profesional</h6>
             <div className="trm-mb-20">
-              Menyediakan berbagai macam web template HTML, CSS, dan JavaScript
-              yang dapat disesuaikan untuk membangun website statis atau
-              dinamis.
+              Spesialis pembuatan landing page di Sukoharjo dengan desain modern dan konversi tinggi.
+              Dioptimasi untuk SEO dan kecepatan loading, cocok untuk promosi produk/jasa, 
+              campaign marketing, dan halaman penjualan yang efektif.
             </div>
             <a
               data-fancybox=""
               href="#trm-order"
               className="trm-label trm-label-color"
             >
-              Order now <i className="fas fa-arrow-right" />
+              Pesan Sekarang <i className="fas fa-arrow-right" />
             </a>
           </div>
         </div>
@@ -92,26 +92,27 @@ const Services = () => {
             <div className="trm-icon">
               <img
                 src="/img/icons/icon-3.svg"
-                alt="icon"
+                alt="Jasa Pembuatan Website Custom Sukoharjo"
                 className="trm-black-icon"
               />
               <img
                 src="/img/icons/icon-3w.svg"
-                alt="icon"
+                alt="Web Development Sukoharjo"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Custom Web </h6>
+            <h6 className="trm-mb-20">Jasa Website Custom</h6>
             <div className="trm-mb-20">
-              Menyediakan layanan pengembangan website custom yang dirancang
-              khusus untuk memenuhi kebutuhan unik Anda.
+              Layanan pembuatan website custom di Sukoharjo dengan teknologi terkini.
+              Dikembangkan sesuai kebutuhan spesifik bisnis Anda, dengan fitur-fitur
+              khusus, sistem manajemen konten, integrasi API, dan optimasi SEO lengkap.
             </div>
             <a
               data-fancybox=""
               href="#trm-order"
               className="trm-label trm-label-color"
             >
-              Order now <i className="fas fa-arrow-right" />
+              Pesan Sekarang <i className="fas fa-arrow-right" />
             </a>
           </div>
         </div>

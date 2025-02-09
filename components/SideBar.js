@@ -51,6 +51,9 @@ const SideBar = () => {
             <a href="https://x.com/Hadzzy3" target="_blank">
               <i className="fab fa-twitter" />
             </a>
+            <a href="https://wa.me/6285876120167" target="_blank">
+              <i className="fab fa-whatsapp" />
+            </a>
           </div>
 
           {/* sidebar social end */}
