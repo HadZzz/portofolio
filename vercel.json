@@ -1,32 +1,8 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/img/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      },
-      "continue": true
-    },
-    {
-      "src": "/_next/static/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      },
-      "continue": true
-    },
-    {
-      "src": "/(.*)",
-      "headers": {
-        "x-frame-options": "DENY",
-        "x-content-type-options": "nosniff",
-        "x-xss-protection": "1; mode=block",
-        "referrer-policy": "strict-origin-when-cross-origin",
-        "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
-      },
-      "continue": true
-    }
-  ],
+  "buildCommand": "next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
   "headers": [
     {
       "source": "/(.*)",
@@ -42,25 +18,8 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
         }
       ]
     }
-  ],
-  "images": {
-    "sizes": [640, 750, 828, 1080, 1200, 1920],
-    "domains": ["placehold.co"],
-    "minimumCacheTTL": 60
-  },
-  "build": {
-    "env": {
-      "NEXT_PUBLIC_GA_ID": "G-XXXXXXXXXX"
-    }
-  },
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://hazdev.vercel.app"
-  }
+  ]
 } 
